@@ -226,6 +226,7 @@ if quote_file and vendor:
 # === 3. EMAIL GENERATOR ===
 st.header("📧 Email Template Generator")
 store_city = st.text_input("Store # and City", value="")
+delivery_date = st.text_area("Delivery Date", value="", height=100)
 construction_dates = st.text_area("Construction Dates", value="", height=100)
 super_info = st.text_area("Super Info", value="", height=100)
 design_type = st.text_input("Design Type", value="")
@@ -241,7 +242,7 @@ Hi everyone,
 
 See attached plans for Journeys # {fill(store_city)}.
 
-Vendors – please advise with any questions or concerns and submit your quotes by .
+Vendors – please advise with any questions or concerns and submit your quotes by {fill(delivery_date)}.
 
 Best,
 """,
@@ -250,7 +251,7 @@ Y- {fill(store_city)} // Delivery Dates
 
 Hi,
 
-Please schedule this to deliver .
+Please schedule this to deliver {fill(delivery_date)}.
 
 Super:
 {fill(super_info)}
@@ -263,6 +264,7 @@ Y- {fill(store_city)} // Delivery Dates
 Hi David,
 
 Please schedule the following to deliver:
+{fill(delivery_date)}
 
 Construction Dates:
 {fill(construction_dates)}
@@ -305,7 +307,7 @@ Y- {fill(store_city)} // Delivery Dates
 
 Hi,
 
-The sign install date for this project is.
+The sign install date for this project is {fill(delivery_date)}.
 
 Please coordinate with the super accordingly.
 
