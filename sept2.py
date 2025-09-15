@@ -356,7 +356,8 @@ email_groups = {
     "Quinn": "atorres1@genesco.com; oholmes@genesco.com; jshelton@genesco.com",
     "Anthony": "qheithcock@genesco.com; oholmes@genesco.com; jshelton@genesco.com",
     "Shae": "atorres1@genesco.com; qheithcock@genesco.com; jshelton@genesco.com",
-    "Jeanette": "atorres1@genesco.com; oholmes@genesco.com; qheithcock@genesco.com"
+    "Jeanette": "atorres1@genesco.com; oholmes@genesco.com; qheithcock@genesco.com",
+    "Distro People": "nswaim@journeys.com; sharris1@genesco.com; ejohnson@genesco.com; jmorrison@genesco.com"
 }
 
 # Dropdown to select group
