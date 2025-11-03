@@ -353,10 +353,10 @@ st.header("📧 Team Email List")
 
 # Define your different groups here
 email_groups = {
-    "Quinn": "atorres1@genesco.com; oholmes@genesco.com; jshelton@genesco.com",
-    "Anthony": "qheithcock@genesco.com; oholmes@genesco.com; jshelton@genesco.com",
-    "Shae": "atorres1@genesco.com; qheithcock@genesco.com; jshelton@genesco.com",
-    "Jeanette": "atorres1@genesco.com; oholmes@genesco.com; qheithcock@genesco.com",
+    "Quinn": "atorres1@genesco.com; oholmes@genesco.com; jshelton@genesco.com; ygilmore@journeys.com",
+    "Anthony": "qheithcock@genesco.com; oholmes@genesco.com; jshelton@genesco.com; ygilmore@journeys.com",
+    "Shae": "atorres1@genesco.com; qheithcock@genesco.com; jshelton@genesco.com; ygilmore@journeys.com",
+    "Jeanette": "atorres1@genesco.com; oholmes@genesco.com; qheithcock@genesco.com; ygilmore@journeys.com",
     "Distro People": "nswaim@journeys.com; sharris1@genesco.com; ejohnson@genesco.com; jmorrison@genesco.com"
 }
 
